@@ -28,7 +28,7 @@ def min_steps_to_match_maps(map1, map2):
     
     #now we need to check for each character in map1 does map2 have fewer characters?
     steps = 0
-
+    
     for char in freq1:
         count1 = freq1[char]
         count2 = freq2.get(char, 0)
